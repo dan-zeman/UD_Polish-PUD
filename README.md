@@ -5,7 +5,7 @@ This is the Polish portion of the Parallel Universal Dependencies (PUD) treebank
 
 # Introduction
 
-PUD-PL consists of 1000 Polish sentences (18,389 tokens) in the same order as in the PUD treebanks in other languages. Morpho-syntactic annotations were automatically predicted by [COMBO](https://github.com/360er0/COMBO) trained on Polish Dependency Bank 2.0 and then manually corrected. Finally, the trees were converted into the UD trees using the same converting procedure as in the case of the PDB-UD treebank. The annotation schema of PUD-PL is thus the same as in the Polish PDB-UD treebank. 458 PUD-PL trees contain enhanced edges.
+PUD-PL consists of 1000 Polish sentences (18,389 tokens) in the same order as in the PUD treebanks in other languages. Morpho-syntactic annotations were automatically predicted by [COMBO](https://github.com/360er0/COMBO) trained on Polish Dependency Bank 2.0 and then manually corrected. Finally, the trees were converted into the UD trees using the same converting procedure as in the case of the PDB-UD treebank. The annotation schema of PUD-PL is thus the same as in the Polish PDB-UD treebank. 459 PUD-PL trees contain enhanced edges.
 
 # Acknowledgments
 
@@ -30,6 +30,13 @@ If you use the Polish PUD treebank, you are encouraged to cite this paper:
 
 # Changelog
 
+* 2019-11-15 v2.5
+  * Fixed nominal dependents of nouns that were attached as obl; correct: nmod.
+  * Fixed adjectival participle dependents of nouns that were attached as amod; correct acl.
+  * Adjectival parts of names (e.g. organisation names, dates) not being named entities are now adj:flat instead of flat.
+  * Nominal parts of names (e.g. organisation names, dates) not being named entities are now nmod:flat instead of flat.
+  * Emphasizing words are annotated as advmod:emph.
+  * Morphological bugs are fixed.
 * 2019-05-15 v2.4
   * Initial release in Universal Dependencies.
 
