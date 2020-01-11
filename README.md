@@ -30,6 +30,10 @@ If you use the Polish PUD treebank, you are encouraged to cite this paper:
 
 # Changelog
 
+* 2020-01-11 **IWPT Shared Task Data**
+  * Enhanced graph: Added case information to oblique relations.
+  * Enhanced graph: Transformed relations between relative clauses and modified nouns.
+  * Enhanced graph: Added empty nodes representing elided predicates.
 * 2019-11-15 v2.5
   * Fixed nominal dependents of nouns that were attached as obl; correct: nmod.
   * Fixed adjectival participle dependents of nouns that were attached as amod; correct acl.
