@@ -30,6 +30,8 @@ If you use the Polish PUD treebank, you are encouraged to cite this paper:
 
 # Changelog
 
+* 2021-03-30 **IWPT Shared Task Data**
+  * Reduced variability of deprel subtypes to increase intra-language consistency.
 * 2020-01-11 **IWPT Shared Task Data**
   * Enhanced graph: Added case information to oblique relations.
   * Enhanced graph: Transformed relations between relative clauses and modified nouns.
